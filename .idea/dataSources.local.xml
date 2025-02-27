@@ -2,7 +2,7 @@
 <project version="4">
   <component name="dataSourceStorageLocal" created-in="PY-243.24978.54">
     <data-source name="@localhost" uuid="78aa3b52-7b1a-445a-803b-a127707df6ce">
-      <database-info product="MySQL" version="8.0.30" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)" dbms="MYSQL" exact-version="8.0.30" exact-driver-version="8.2">
+      <database-info product="MySQL" version="8.0.41" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)" dbms="MYSQL" exact-version="8.0.41" exact-driver-version="8.2">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
         <jdbc-catalog-is-schema>true</jdbc-catalog-is-schema>
@@ -13,8 +13,8 @@
       <schema-mapping>
         <introspection-scope>
           <node kind="schema">
-            <name qname="@" />
             <name qname="db" />
+            <name qname="@" />
           </node>
         </introspection-scope>
       </schema-mapping>

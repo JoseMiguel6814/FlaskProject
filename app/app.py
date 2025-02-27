@@ -8,11 +8,11 @@ def index():  # put application's code here
     conn = mysql.connector.connect(
         host="localhost",
         user="root",
-        passwd="",
+        passwd="6814",
         database="db"
     )
     cursor = conn.cursor()
-    cursor.execute("SELECT * FROM students")
+    cursor.execute('SELECT * FROM students')
     students = cursor.fetchall()
     conn.close()
     return render_template('index.html', students=students)
